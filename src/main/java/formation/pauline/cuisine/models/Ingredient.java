@@ -6,21 +6,15 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Data
 @Document
 @NoArgsConstructor
 @AllArgsConstructor
-public class Recette {
+public class Ingredient {
     @Id
     private String id;
 
     private String nom;
-    private String description;
-    private String auteur;
-
-    private List<QuantiteIngredient> ingredients = new ArrayList<>();
+    private String unite;
 
 }
