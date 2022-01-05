@@ -15,6 +15,7 @@ public class Recette {
     private String id;
 
     private String nom;
+    private String description;
     private String auteur;
 
 }
