@@ -22,7 +22,10 @@ public class Recette {
     private String description;
     private String auteur;
 
+    // Liste des ingredients avec leur quantité respective
     private List<QuantiteIngredient> ingredients = new ArrayList<>();
+
+    // Liste des étapes de la recette
     private List<Etape> etapes = new ArrayList<>();
 
 }
