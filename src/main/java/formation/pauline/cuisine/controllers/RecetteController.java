@@ -1,5 +1,6 @@
 package formation.pauline.cuisine.controllers;
 
+import formation.pauline.cuisine.models.QuantiteIngredient;
 import formation.pauline.cuisine.models.Recette;
 import formation.pauline.cuisine.services.RecetteService;
 import org.springframework.web.bind.annotation.*;

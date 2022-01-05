@@ -1,5 +1,6 @@
 package formation.pauline.cuisine.services;
 
+import formation.pauline.cuisine.models.QuantiteIngredient;
 import formation.pauline.cuisine.models.Recette;
 import formation.pauline.cuisine.repositories.RecetteRepository;
 import org.springframework.http.HttpStatus;
@@ -62,4 +63,6 @@ public class RecetteService {
     public void deleteById(String id) {
         recetteRepository.deleteById(id);
     }
+
+
 }

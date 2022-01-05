@@ -1,14 +1,10 @@
 package formation.pauline.cuisine.models;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 
 @Data
 public class QuantiteIngredient {
-
-    @Id
-    private String id;
-
     private Integer quantite;
     private Ingredient ingredient;
 }
